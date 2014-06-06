@@ -1,0 +1,29 @@
+/*
+ * Author: Danielle Closs
+ * File: Main css file, styles for whole app
+ * Date:6/6/2012
+*/
+
+
+/* nav */
+#nav{margin-bottom:15px;}
+
+/* yui data table*/
+#example {clear:both;}
+table, tr, td, th {border:1px solid silver;}
+th, td {padding:4px;}
+
+/* admin form styles */
+.form{width:410px;}
+.form label,
+.form input{height:25px;margin-bottom:5px;}
+.form label{float:left; width:100px;}
+.form input{width:300px;}
+.form .text_inputs{clear:both;}
+.form .radio_group{clear:both;}
+.form .radio_group label,
+.form .radio_group input{height:15px;margin-bottom:15px;}
+.form .radio_group label{float:left;width:70px;}
+.form .radio_group input{float:left;width:15px;}
+.form #submitButton{width:100px; float:right;clear:both;}
+p.query_message{width:100%; clear:both;}
